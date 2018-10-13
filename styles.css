@@ -37,6 +37,7 @@ nav{
   display: flex;
   justify-content: flex-end;
   margin-top: 72px;
+  height: auto;
 }
 
 a{
@@ -45,7 +46,7 @@ a{
   font-family: Montserrat;
   color: #FFFFDC;
   display: block;
-
+  font-weight: lighter;
   margin: -12px 0px;
 }
 
@@ -54,8 +55,48 @@ a{
   padding:10px 16px;
 }
 
+h1{
+  font-family: QuiteChocolatey;
+  font-size: 88px;
+  color: #FFFFDC;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  font-weight: lighter;
+}
 
 .hovermenu:hover{
   background-color: #15121F;
   border-radius: 8px;
+}
+
+p{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 90px;
+}
+p.first{
+  color: #15121F;
+  display: block;
+  width: auto;
+  height: auto;
+
+}
+p.second{
+  margin-top: -25px;
+  color: #FFFFDC;
+  display: block;
+  height: auto;
+  width: auto;
+
+
+}
+
+.sell{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 190px;
+  display: inline-block;
+  height: auto;
+  width: auto;
 }
