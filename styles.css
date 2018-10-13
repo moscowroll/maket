@@ -3,6 +3,14 @@
   height: 0;
 
 }
+
+@font-face {
+  font-family: 'QuiteChocolatey';
+  src:url('fonts/QuiteChocolatey.ttf');
+
+}
+
+
 .header{
   height: 690px;
   width: 100%;
@@ -38,13 +46,16 @@ a{
   color: #FFFFDC;
   display: block;
 
-  padding: 20px 17px;
-  margin: -12px -1px;
+  margin: -12px 0px;
+}
+
+.hovermenu{
+  height: auto;
+  padding:10px 16px;
 }
 
 
-nav a:hover{
-
+.hovermenu:hover{
   background-color: #15121F;
-  /* border-radius: 10px; */
+  border-radius: 8px;
 }
