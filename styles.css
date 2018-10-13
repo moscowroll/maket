@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  height: 0;
+
+}
+.header{
+  height: 690px;
+  width: 100%;
+  background-color: #E42614;
+  position: relative;
+}
+
+.contentsgran{
+  width: 1200px;
+  height: 690px;
+  position: absolute;
+  left: calc(720px / 2);
+  background-image: url('img/sopacity.png');
+}
+
+.contentbezgran{
+  position: absolute;
+  left: 85px;
+  width: calc(1200px - 170px);
+  height: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 72px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Montserrat;
+  color: #FFFFDC;
+  display: block;
+
+  padding: 20px 17px;
+  margin: -12px -1px;
+}
+
+
+nav a:hover{
+
+  background-color: #15121F;
+  /* border-radius: 10px; */
+}
